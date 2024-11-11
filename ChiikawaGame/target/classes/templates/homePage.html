@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>商城首頁</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/css/custom.css}" rel="stylesheet">
+</head>
+<body>
+    <!-- 引入 header -->
+    <div th:replace="layout/header :: *"></div>
+
+    <div class="container">
+        <h1>歡迎來到商城首頁</h1>
+        <p>這裡是首頁內容區域。</p>
+    </div>
+
+    <script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
